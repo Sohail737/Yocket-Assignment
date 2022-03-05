@@ -1,6 +1,6 @@
-#Events APIs
+# Events APIs
 
-##Endpoints
+## Endpoints
 1. GET /events
 
     query params : 
