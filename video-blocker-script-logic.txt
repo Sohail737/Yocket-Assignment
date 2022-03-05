@@ -1,0 +1,7 @@
+Logic to implement in the script to block videos with specific keywords
+1. declare an array of keywords
+2. the response which contains videos will be an array of object, which we will filter for the keywords.
+3. filter condition: 
+	check if the video title (which should be property on the object) does exists in the keywords array
+4. The videos whcih contains Keywords in title will be filtered from the response.
+5. Return the filtered response.

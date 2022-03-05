@@ -1,0 +1,9 @@
+1. The cost for 1 sms is 0.02 dollar, and I have 100 dollars, that means 5000 sms
+2. The quota of 5000 sms is being used within an hour whith significant less traffic, is something not right, and does require fix
+3.Possible reasons due to which this might be happening
+    a. The validtity time for OTP is very less due to which user is not able to login and might need to resend OTP several time.
+        The possible fix for this issue is to increase validity time of OTP.
+    b. Due to some condition in code, multiple OTP is being sent to user.
+        The possible fix for this is to find the condition and correct it.
+    c. The session time for a login is very less, and due to which user might need to login multiple times.
+    The possible fix for this is to increase the session time for login.
